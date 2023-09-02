@@ -19,3 +19,16 @@ for price in prices:
 print(new_price_list)
 
 print()
+
+# Calculate the total revenue generated from the products
+
+import numpy as np
+
+prices_array = np.array(prices)
+quantities_array = np.array(last_week)
+
+total_revenue = np.dot(prices_array, quantities_array)
+
+print(total_revenue)
+
+print()
