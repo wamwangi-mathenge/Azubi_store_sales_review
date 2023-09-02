@@ -8,3 +8,14 @@ last_week = [2, 3, 5, 8, 4, 4, 6, 2, 9]
 
 average_price = sum(prices) / len(prices)
 print(average_price)
+
+print()
+
+new_price_list = []
+for price in prices:
+    new_price = int(price) - 5
+    new_price_list.append(new_price)
+    
+print(new_price_list)
+
+print()
