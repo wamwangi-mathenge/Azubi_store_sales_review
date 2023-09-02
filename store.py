@@ -32,3 +32,10 @@ total_revenue = np.dot(prices_array, quantities_array)
 print(total_revenue)
 
 print()
+
+# Calculate the average daily revenue generated from the products
+
+average_daily_revenue = total_revenue / 7
+print(average_daily_revenue)
+
+print()
